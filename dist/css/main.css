@@ -1,0 +1,173 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  height: 3000px; }
+
+.lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  z-index: 1;
+  height: 100%; }
+  .lines .line {
+    width: 1px;
+    height: 100%;
+    z-index: 1;
+    background-color: #fff; }
+
+header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fef7e2), to(#eeeefd));
+  background: linear-gradient(to bottom, #fef7e2, #eeeefd);
+  height: 1080px;
+  position: relative; }
+  header .logo h2 {
+    font-size: 20px;
+    font-weight: bold; }
+  header .navbar {
+    padding: 10px 0;
+    padding-top: 40px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center; }
+    header .navbar nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      header .navbar nav ul {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        list-style: none;
+        margin: 0; }
+        header .navbar nav ul li {
+          padding: 10px;
+          margin: 10px 10px; }
+          header .navbar nav ul li a {
+            color: #000248;
+            font-weight: 600;
+            text-decoration: none;
+            -webkit-transition: ease-in-out 0.2s;
+            transition: ease-in-out 0.2s; }
+            header .navbar nav ul li a:hover {
+              color: #702fff; }
+    header .navbar button {
+      background-color: #702fff;
+      padding: 13px 25px;
+      margin-left: 10px;
+      border: 0;
+      color: #fff;
+      font-weight: bold;
+      border: 2px solid transparent;
+      -webkit-transition: ease-in-out 0.2s;
+      transition: ease-in-out 0.2s; }
+      header .navbar button i {
+        margin-left: 12px; }
+      header .navbar button:hover {
+        background-color: #fff;
+        color: #702fff;
+        border: 2px solid #702fff #702fff; }
+  header h1 {
+    margin-top: 80px;
+    font-size: 55px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    color: #000248; }
+  header a.explore {
+    margin-top: 120px;
+    display: block;
+    font-size: 20px;
+    color: #000248;
+    -webkit-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s; }
+    header a.explore i {
+      margin-right: 10px;
+      background-color: #fff;
+      padding: 8px 10px;
+      border-radius: 50%; }
+    header a.explore:hover {
+      color: #702fff;
+      text-decoration: none; }
+  header .screens {
+    z-index: 2; }
+    header .screens .header2 {
+      position: absolute;
+      width: 250px;
+      top: 200px;
+      right: 250px;
+      z-index: 3; }
+    header .screens .header1 {
+      position: absolute;
+      width: 700px;
+      top: 250px;
+      right: 400px;
+      z-index: 3; }
+    header .screens .header3 {
+      position: absolute;
+      width: 400px;
+      top: 680px;
+      left: 450px;
+      z-index: 3; }
+  header .shapes .shape-01 {
+    top: 500px;
+    z-index: 2;
+    position: absolute;
+    right: 500px; }
+  header .shapes .shape-02 {
+    top: 650px;
+    z-index: 2;
+    position: absolute;
+    left: 150px; }
+  header .shapes .shape-03 {
+    top: 650px;
+    z-index: 2;
+    position: absolute;
+    right: 150px; }
+  header .shapes .shape-04 {
+    top: 350px;
+    z-index: 2;
+    position: absolute;
+    right: 300px; }
+  header .shapes .shape-05 {
+    top: 300px;
+    z-index: 2;
+    position: absolute;
+    left: 700px; }
+  header .shapes .shape-06 {
+    top: 550px;
+    z-index: 2;
+    position: absolute;
+    left: 450px; }
+  header .status {
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #000248; }
+    header .status .st {
+      padding: 10px 20px; }
+      header .status .st h3 {
+        font-size: 15px; }
+      header .status .st span {
+        font-size: 50px;
+        font-weight: bold; }
