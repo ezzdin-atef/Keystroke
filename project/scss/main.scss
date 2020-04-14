@@ -38,10 +38,12 @@ body {
   opacity: 0;
   visibility: hidden;
   color: #702fff;
+  font-size: 14px;
   z-index: 1000;
   cursor: pointer;
   i {
     display: block;
+    margin-bottom: 3px;
   }
   &:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.137);
