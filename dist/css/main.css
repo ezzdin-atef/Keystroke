@@ -73,7 +73,70 @@ body {
     width: 1px;
     height: 100%;
     z-index: 1;
-    background-color: #fff; }
+    background-color: #fff;
+    position: relative; }
+    .lines .line.bottom:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 100%;
+      top: 100%;
+      background-color: #702fff;
+      height: 40px;
+      -webkit-animation-name: linesToTop;
+              animation-name: linesToTop;
+      -webkit-animation-duration: 5s;
+              animation-duration: 5s;
+      -webkit-animation-delay: 1s;
+              animation-delay: 1s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate; }
+    .lines .line.top:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      width: 100%;
+      background-color: #702fff;
+      height: 40px;
+      -webkit-animation-name: linesToBottom;
+              animation-name: linesToBottom;
+      -webkit-animation-duration: 5s;
+              animation-duration: 5s;
+      -webkit-animation-delay: 1s;
+              animation-delay: 1s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate; }
+
+@-webkit-keyframes linesToBottom {
+  from {
+    top: 0; }
+  to {
+    top: 100%; } }
+
+@keyframes linesToBottom {
+  from {
+    top: 0; }
+  to {
+    top: 100%; } }
+
+@-webkit-keyframes linesToTop {
+  from {
+    top: 100%; }
+  to {
+    top: 0; } }
+
+@keyframes linesToTop {
+  from {
+    top: 100%; }
+  to {
+    top: 0; } }
 
 .navbar {
   padding: 10px 0;
