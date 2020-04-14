@@ -8,6 +8,9 @@ HTML
     link(rel='stylesheet', href='css/main.css')
     title Keystrock
   body
+    button#button
+      <i class="fas fa-angle-up"></i> 
+      | Top
     .lines
       .line
       .line
@@ -35,7 +38,7 @@ HTML
                   a(href='#') Features
                 li
                   a(href='#') Why Us
-              button Buy Now <i class="fas fa-shopping-cart"></i>
+              button.custombtn Buy Now <i class="fas fa-shopping-cart"></i>
         h1 Creative agency,<br>corporate and portfolio<br>HTML Template
         a(href='#', class='explore') <i class="fas fa-arrow-down"></i> Explore Template
         .screens
@@ -59,13 +62,145 @@ HTML
           .st
             h3 Elements
             span 15+
-    section.our-work
+    section.our-templates
+      img(src='img/shape-11.svg', class='shape-11')
+      img(src='img/shape-11.svg', class='shape-12')
       .container
         .row.header
           .col
             h2 Our Template Are Just<br>Ready to Use
           .col 
             p You will love all of the features in our template.<br>100% guaranteed satisfaction.
+        .temps
+          .row
+            .col-6.temp
+              a(href='#') 
+                img(src='img/home-01.png')
+              h5.text-center
+                a(href='#') Digital Agency
+            .col-6.temp
+              a(href='#') 
+                img(src='img/home-02.png')
+              h5.text-center
+                a(href='#') Creative Agency
+          .row
+            .col-6.temp
+              a(href='#') 
+                img(src='img/home-03.png')
+              h5.text-center
+                a(href='#') Personal Portfolio
+            .col-6.temp
+              a(href='#') 
+                img(src='img/home-04.png')
+              h5.text-center
+                a(href='#') Startup
+          .row
+            .col-6.temp
+              a(href='#') 
+                img(src='img/home-05.png')
+              h5.text-center
+                a(href='#') Corporate Agency
+            .col-6.temp
+              a(href='#') 
+                img(src='img/comming-soon.png')
+              h5.text-center
+                a(href='#') &nbsp;
+    section.features
+      img(src='img/shape-09.svg', class='shape-09')
+      img(src='img/shape-10.svg', class='shape-10')
+      .container
+        .row.header
+          .col
+            h2 We have Impressive<br>Template Features
+          .col 
+            p You will love all of the features in our template.<br>100% guaranteed satisfaction.
+        .row.faeature
+          .feature-box.col.text-center
+            img(src='img/feature-icon-01.png', alt='...')
+            h5 Fully Responsive Layout
+            p All the pages of this template are responsive. We used Bootstrap framework to build the website. It’s the best in class.
+          .feature-box.col.text-center
+            img(src='img/feature-icon-02.png', alt='...')
+            h5 21+ Resourceful Pages
+            p All the pages are created based on real contents that you will need to run your business. Change image and text and you’re good to go!
+          .feature-box.col.text-center
+            img(src='img/feature-icon-03.png', alt='...')
+            h5 Font Awesome 5 Pro Icons
+            p This template comes with licensed premium quality icons from FontAwesome. All the icons are font based and ready to match the quality of any HQ screen.
+        .row.faeature
+          .feature-box.col.text-center
+            img(src='img/feature-icon-04.png', alt='...')
+            h5 Google Font
+            p A vast collection of Google fonts are integrated with the template. You can use any of them that goes with your branding.
+          .feature-box.col.text-center
+            img(src='img/feature-icon-08.png', alt='...')
+            h5 Lifetime Update
+            p Purchase our template only once and get lifetime updates. We keep updating our products to stay up to date with latest trends and technology.
+          .feature-box.col.text-center.invisible 
+    section.why-us
+      img(src='img/shape-12.svg', class='shape-12')
+      img(src='img/shape-13.svg', class='shape-13')
+      .container
+        .row.header
+          .col
+            h2 We have Impressive<br>Template Features
+          .col 
+            p You will love all of the features in our template.<br>100% guaranteed satisfaction.
+        .row.reasons
+          .reason.col
+            div.d-flex
+              img(src='img/choose-us-01.png', alt='...')
+              h5 A Complete Product for Your Business
+            p We build Template that are rich in content and have good user interface to deliver premium user experience for your customers.
+          .reason.col
+            div.d-flex
+              img(src='img/choose-us-02.png', alt='...')
+              h5 SEO & SMM Friendly
+            p Our Template is SEO and SMM friendly that aligns with your digital marketing strategies to bring more organic traffic to your website.
+          .reason.col
+            div.d-flex
+              img(src='img/choose-us-03.png', alt='...')
+              h5 Well Organized Codes
+            p The coding structure of our items organized so other developers can easily recognize the pattern and make updates as needed.
+        .row.info
+          .col-4.info-box.text-center
+            img(src='img/feature-icon-08.png', alt='...')
+            h5.blue Online Documentation
+            p Well organized and up to date
+            a(href='#').blue
+              i(class="fas fa-arrow-right")
+          .col-4.info-box.text-center
+            img(src='img/feature-icon-08 (1).png', alt='...')
+            h5.green Dadecated Support
+            p 24/7 round the clock support
+            a(href='#').green
+              i(class="fas fa-arrow-right")
+    footer
+      img(src='img/shape-07.svg', class='shape-07')
+      img(src='img/shape-08.svg', class='shape-08')
+      .container
+        .start
+          .row
+            .col-9
+              h2 Let’s Start Your Business Today!
+              p Missing something? Just tell us what you need by 
+                a(href='#') requesting us here.
+            .col-3
+              button.custombtn.float-right.mt-2 Buy Now <i class="fas fa-shopping-cart"></i>
+
+        .row 
+          .col-7.copyrights
+            h5 © 2020. All rights reserved by Axilweb
+            a(href='#') MORE TEMPLATES
+            a(href='#') PRIVACY POLICY
+          .col.icons
+            a(href='#')
+              <i class="fab fa-facebook-f"></i>
+            a(href='#')
+              <i class="fab fa-dribbble"></i>
+
+
+
     script(src='js/jquery-3.4.1.slim.min.js')
     script(src='js/popper.min.js')
     script(src='js/bootstrap.min.js')
