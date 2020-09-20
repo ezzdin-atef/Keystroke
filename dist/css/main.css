@@ -955,6 +955,9 @@ footer .icons a i {
     width: 92% !important;
     margin-top: 60px !important;
   }
+  .why-us .info .info-box {
+    margin: 15px 0;
+  }
   .features .faeature {
     margin-top: 0;
   }
@@ -985,5 +988,9 @@ footer .icons a i {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {  
+  footer .shape-07,
+  .features .shape-09 {
+    display: none;
+  }
 }
  
