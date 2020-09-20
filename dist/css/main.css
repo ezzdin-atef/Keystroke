@@ -77,7 +77,7 @@ body {
   position: fixed;
   border: none;
   bottom: 30px;
-  right: 100px;
+  right: 50px;
   -webkit-transition: ease-in-out 0.5s;
   transition: ease-in-out 0.5s;
   opacity: 0;
