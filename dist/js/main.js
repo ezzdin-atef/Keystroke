@@ -78,7 +78,7 @@ $(function () {
 
     /* Define function a */
     function handleMove(e) {
-        console.log(e.target.closest(".box-animation"));
+        // console.log(e.target.closest(".box-animation"));
         const el = e.target.closest(".box-animation");
         /*
             * Get position of mouse cursor
