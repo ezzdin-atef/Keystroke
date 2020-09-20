@@ -102,11 +102,10 @@ $(function () {
         const xRotation = -20 * ((yVal - height / 2) / height);
         
         /* Generate string for CSS transform property */
-        const string = 'perspective(500px) scale(1) rotateX(' + xRotation + 'deg) rotateY(' + yRotation + 'deg)';
+        const string = 'perspective(800px) scale(1) rotateX(' + xRotation + 'deg) rotateY(' + yRotation + 'deg)';
         
         /* Apply the calculated transformation */
         el.style.transform = string;
-        el.style.zIndex = 5;
     }
 
     el.forEach(el => {
@@ -115,20 +114,17 @@ $(function () {
 
         /* Add listener for mouseout event, remove the rotation */
         el.addEventListener('mouseout', function(e) {
-            e.target.closest(".box-animation").style.transform = 'perspective(500px) scale(1) rotateX(0) rotateY(0)';
-            e.target.closest(".box-animation").style.zIndex = 5;
+            e.target.closest(".box-animation").style.transform = 'perspective(800px) scale(1) rotateX(0) rotateY(0)';
         })
 
         /* Add listener for mousedown event, to simulate click */
         el.addEventListener('mousedown', function(e) {
-            e.target.closest(".box-animation").style.transform = 'perspective(500px) scale(1) rotateX(0) rotateY(0)';
-            e.target.closest(".box-animation").style.zIndex = 5;
+            e.target.closest(".box-animation").style.transform = 'perspective(800px) scale(1) rotateX(0) rotateY(0)';
         })
 
         /* Add listener for mouseup, simulate release of mouse click */
         el.addEventListener('mouseup', function(e) {
-            e.target.closest(".box-animation").style.transform = 'perspective(500px) scale(1) rotateX(0) rotateY(0)';
-            e.target.closest(".box-animation").sstyle.zIndex = 5;
+            e.target.closest(".box-animation").style.transform = 'perspective(800px) scale(1) rotateX(0) rotateY(0)';
         })
     });
 
