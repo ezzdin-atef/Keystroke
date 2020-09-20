@@ -62,6 +62,10 @@ $(function () {
             scrollTop: $('.why-us').offset().top
         }, 800);
     });
+
+    $(".mobile-menu").on("click", function() {
+        $(".mobile-menu + nav").toggleClass("mobile-nav");
+    });
     
 
 
