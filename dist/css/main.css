@@ -473,9 +473,12 @@ header .status .st span {
   margin-top: 4em;
 }
 .our-templates .temps .temp {
-  z-index: 3;
+  z-index: 5;
   padding: 15px;
   margin-bottom: 30px;
+}
+.box-animation {
+  transition: transform 0.2s;
 }
 .our-templates .temps .temp > a {
   display: block;
