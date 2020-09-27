@@ -733,3 +733,130 @@ footer {
 }
 
 //#ecfafc #efeefa #00CFFF
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {  
+  header h1 {
+    margin-top: 200px;
+  }
+  header .screens {
+    display: none;
+  }
+  footer .start {
+    width: 930px;
+  }
+}
+
+.mobile-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: 600;
+  z-index: 50;
+  display: none;
+  cursor: pointer;
+}
+.mobile-nav {
+  display: block !important;
+}
+.mobile-nav ul {
+  display: block !important;
+  background-color: #fff;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 145px;
+  border-radius: 5px;
+}
+.mobile-nav .custombtn {
+  display: none;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+  footer .start {
+    width: 80%;
+    margin: 20px 0;
+  }
+  footer .row {
+    display: block;
+  }
+  footer .start .row .col-9,
+  footer .start .row .col-3 {
+    max-width: 100%;
+  }
+  footer .start .custombtn {
+    float: none !important;
+  }
+  footer .start .row .col-3 {
+    text-align: center;
+  }
+  footer .icons {
+    text-align: center;
+  }
+  .copyrights h5 {
+    margin-top: 50px;
+  }
+  .mobile-menu {
+    display: inline-block;
+  }
+  header .navbar nav {
+    display: none;
+  }
+  .navbar nav {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {  
+  footer .start {
+    display: none;
+  }
+  .faeature {
+    display: block;
+  }
+  .faeature .col {
+    width: 92% !important;
+    margin-top: 60px !important;
+  }
+  .why-us .info .info-box {
+    margin: 30px 0;
+  }
+  .features .faeature {
+    margin-top: 0;
+  }
+  .header.row {
+    display: block;
+  }
+  .temps .row {
+    display: block;
+  }
+  .temps .row .col-6 {
+    max-width: 100%;
+  }
+  footer .copyrights {
+    width: 100%;
+    text-align: center;
+  }
+  footer .copyrights h5 {
+    padding: 0;
+    margin: 0;
+  }
+  footer .copyrights a {
+    margin: 0;
+  }
+  header .status {
+    display: none;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+  footer .shape-07,
+  .features .shape-09 {
+    display: none;
+  }
+}
+ 
